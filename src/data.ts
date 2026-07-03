@@ -1,15 +1,4 @@
 import { MenuItem } from './types';
-import scallops from './assets/images/scallops.jpg';
-import risotto from './assets/images/risotto.jpg';
-import dessert_1 from './assets/images/dessert_1.jpg';
-import cocktail from './assets/images/cocktail.jpg';
-import tartare from './assets/images/tartare.jpg';
-import seabass from './assets/images/seabass.jpg';
-import burrata from './assets/images/burrata.jpg';
-import duck from './assets/images/duck.jpg';
-import lamb from './assets/images/lamb.jpg';
-import tarte_tatin from './assets/images/tarte_tatin.jpg';
-import martini from './assets/images/martini.jpg';
 
 export const MENU_ITEMS: MenuItem[] = [
   {
@@ -18,7 +7,7 @@ export const MENU_ITEMS: MenuItem[] = [
     description: 'Fresh scallops with parsnip puree and crispy pancetta.',
     price: 18,
     category: 'Starter',
-    image: scallops,
+    image: 'https://images.unsplash.com/photo-1532639193859-b5d98e1c217d?auto=format&fit=crop&q=80&w=800',
   },
   {
     id: '2',
@@ -26,7 +15,7 @@ export const MENU_ITEMS: MenuItem[] = [
     description: 'Arborio rice with wild mushrooms and black truffle shavings.',
     price: 26,
     category: 'Main',
-    image: risotto,
+    image: 'https://images.unsplash.com/photo-1476124369491-e7addf5db371?auto=format&fit=crop&q=80&w=800',
   },
   {
     id: '3',
@@ -34,7 +23,7 @@ export const MENU_ITEMS: MenuItem[] = [
     description: 'Warm chocolate cake with a molten center and vanilla bean ice cream.',
     price: 14,
     category: 'Dessert',
-    image: dessert_1,
+    image: 'https://images.unsplash.com/photo-1551024506-0bccd828d307?auto=format&fit=crop&q=80&w=800',
   },
   {
     id: '4',
@@ -42,7 +31,7 @@ export const MENU_ITEMS: MenuItem[] = [
     description: 'Smoked bourbon with spiced bitters and orange zest.',
     price: 16,
     category: 'Drink',
-    image: cocktail,
+    image: 'https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?auto=format&fit=crop&q=80&w=800',
   },
   {
     id: '5',
@@ -50,7 +39,7 @@ export const MENU_ITEMS: MenuItem[] = [
     description: 'Hand-cut wagyu with capers, shallots, and a quail egg yolk.',
     price: 22,
     category: 'Starter',
-    image: tartare,
+    image: 'https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&q=80&w=800',
   },
   {
     id: '6',
@@ -58,7 +47,7 @@ export const MENU_ITEMS: MenuItem[] = [
     description: 'Line-caught seabass with braised leeks and saffron beurre blanc.',
     price: 34,
     category: 'Main',
-    image: seabass,
+    image: 'https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?auto=format&fit=crop&q=80&w=800',
   },
   {
     id: '7',
@@ -66,7 +55,7 @@ export const MENU_ITEMS: MenuItem[] = [
     description: 'Creamy burrata with seasonal tomatoes, aged balsamic, and basil oil.',
     price: 19,
     category: 'Starter',
-    image: burrata,
+    image: 'https://images.unsplash.com/photo-1592417817098-8fd3d9ebc4a5?auto=format&fit=crop&q=80&w=800',
   },
   {
     id: '8',
@@ -74,7 +63,7 @@ export const MENU_ITEMS: MenuItem[] = [
     description: 'Roasted duck breast with cherry gastrique and parsnip crisps.',
     price: 38,
     category: 'Main',
-    image: duck,
+    image: 'https://images.unsplash.com/photo-1580476262798-bddd9f4b7369?auto=format&fit=crop&q=80&w=800',
   },
   {
     id: '9',
@@ -82,7 +71,7 @@ export const MENU_ITEMS: MenuItem[] = [
     description: 'Rack of lamb with fondant potatoes and mint-infused jus.',
     price: 42,
     category: 'Main',
-    image: lamb,
+    image: 'https://images.unsplash.com/photo-1603048588665-791ca8aea617?auto=format&fit=crop&q=80&w=800',
   },
   {
     id: '10',
@@ -90,7 +79,7 @@ export const MENU_ITEMS: MenuItem[] = [
     description: 'Classic caramelized apple tart with Madagascar vanilla cream.',
     price: 15,
     category: 'Dessert',
-    image: tarte_tatin,
+    image: 'https://images.unsplash.com/photo-1519915028121-7d3463d20b13?auto=format&fit=crop&q=80&w=800',
   },
   {
     id: '11',
@@ -98,6 +87,6 @@ export const MENU_ITEMS: MenuItem[] = [
     description: 'Freshly pulled espresso, premium vodka, and coffee liqueur.',
     price: 17,
     category: 'Drink',
-    image: martini,
+    image: 'https://images.unsplash.com/photo-1544145945-f904253db0ad?auto=format&fit=crop&q=80&w=800',
   }
 ];

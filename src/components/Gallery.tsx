@@ -1,16 +1,11 @@
 import { motion } from 'motion/react';
-import hero from '../assets/images/hero.jpg';
-import gallery_1 from '../assets/images/gallery_1.jpg';
-import cocktail from '../assets/images/cocktail.jpg';
-import gallery_2 from '../assets/images/gallery_2.jpg';
-import gallery_3 from '../assets/images/gallery_3.jpg';
 
 const GALLERY_IMAGES = [
-  { url: hero, span: 'md:col-span-2 md:row-span-2', title: 'The Main Dining Room' },
-  { url: gallery_1, span: 'md:col-span-1 md:row-span-1', title: 'Culinary Precision' },
-  { url: cocktail, span: 'md:col-span-1 md:row-span-1', title: 'Mixology Art' },
-  { url: gallery_2, span: 'md:col-span-1 md:row-span-2', title: 'The Private Cellar' },
-  { url: gallery_3, span: 'md:col-span-1 md:row-span-1', title: 'Luminous Evenings' },
+  { url: 'https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?auto=format&fit=crop&q=80&w=2000', span: 'md:col-span-2 md:row-span-2', title: 'The Main Dining Room' },
+  { url: 'https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&q=80&w=800', span: 'md:col-span-1 md:row-span-1', title: 'Culinary Precision' },
+  { url: 'https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?auto=format&fit=crop&q=80&w=800', span: 'md:col-span-1 md:row-span-1', title: 'Mixology Art' },
+  { url: 'https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&q=80&w=800', span: 'md:col-span-1 md:row-span-2', title: 'The Private Cellar' },
+  { url: 'https://images.unsplash.com/photo-1551024506-0bccd828d307?auto=format&fit=crop&q=80&w=800', span: 'md:col-span-1 md:row-span-1', title: 'Luminous Evenings' },
 ];
 
 export default function Gallery() {

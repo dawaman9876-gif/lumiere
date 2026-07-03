@@ -1,8 +1,7 @@
 import { motion } from 'motion/react';
 import { Star } from 'lucide-react';
-import risottoImage from '../assets/images/risotto.jpg';
-
 export default function SpecialHighlight() {
+  const risottoImage = 'https://images.unsplash.com/photo-1476124369491-e7addf5db371?auto=format&fit=crop&q=80&w=800';
   return (
     <section className="py-24 px-6 md:px-12 bg-[#080808] border-y border-white/5">
       <div className="max-w-7xl mx-auto">

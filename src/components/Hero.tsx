@@ -1,11 +1,11 @@
 import { motion } from 'motion/react';
-import heroImage from '../assets/images/hero.jpg';
 
 interface HeroProps {
   onScrollTo: (id: string) => void;
 }
 
 export default function Hero({ onScrollTo }: HeroProps) {
+  const heroImage = 'https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?auto=format&fit=crop&q=80&w=2000';
   return (
     <section id="hero" className="relative h-screen flex items-center justify-center overflow-hidden">
       <div 
