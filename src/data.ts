@@ -7,7 +7,7 @@ export const MENU_ITEMS: MenuItem[] = [
     description: 'Fresh scallops with parsnip puree and crispy pancetta.',
     price: 18,
     category: 'Starter',
-    image: '/src/assets/images/gourmet_dish_1_1783066013173.jpg',
+    image: '/images/gourmet_dish_1_1783066013173.jpg',
   },
   {
     id: '2',
@@ -15,7 +15,7 @@ export const MENU_ITEMS: MenuItem[] = [
     description: 'Arborio rice with wild mushrooms and black truffle shavings.',
     price: 26,
     category: 'Main',
-    image: '/src/assets/images/truffle_risotto_dish_1783066341806.jpg',
+    image: '/images/truffle_risotto_dish_1783066341806.jpg',
   },
   {
     id: '3',
@@ -23,7 +23,7 @@ export const MENU_ITEMS: MenuItem[] = [
     description: 'Warm chocolate cake with a molten center and vanilla bean ice cream.',
     price: 14,
     category: 'Dessert',
-    image: '/src/assets/images/gourmet_dish_2_1783066025989.jpg',
+    image: '/images/gourmet_dish_2_1783066025989.jpg',
   },
   {
     id: '4',
@@ -31,7 +31,7 @@ export const MENU_ITEMS: MenuItem[] = [
     description: 'Smoked bourbon with spiced bitters and orange zest.',
     price: 16,
     category: 'Drink',
-    image: '/src/assets/images/restaurant_cocktail_1783066040048.jpg',
+    image: '/images/restaurant_cocktail_1783066040048.jpg',
   },
   {
     id: '5',
@@ -39,7 +39,7 @@ export const MENU_ITEMS: MenuItem[] = [
     description: 'Hand-cut wagyu with capers, shallots, and a quail egg yolk.',
     price: 22,
     category: 'Starter',
-    image: '/src/assets/images/wagyu_beef_tartare_starter_1783066327990.jpg',
+    image: '/images/wagyu_beef_tartare_starter_1783066327990.jpg',
   },
   {
     id: '6',
@@ -47,7 +47,7 @@ export const MENU_ITEMS: MenuItem[] = [
     description: 'Line-caught seabass with braised leeks and saffron beurre blanc.',
     price: 34,
     category: 'Main',
-    image: '/src/assets/images/seabass_dish_main_1783066314733.jpg',
+    image: '/images/seabass_dish_main_1783066314733.jpg',
   },
   {
     id: '7',
@@ -55,7 +55,7 @@ export const MENU_ITEMS: MenuItem[] = [
     description: 'Creamy burrata with seasonal tomatoes, aged balsamic, and basil oil.',
     price: 19,
     category: 'Starter',
-    image: '/src/assets/images/burrata_salad_dish_1783066250882.jpg',
+    image: '/images/burrata_salad_dish_1783066250882.jpg',
   },
   {
     id: '8',
@@ -63,7 +63,7 @@ export const MENU_ITEMS: MenuItem[] = [
     description: 'Roasted duck breast with cherry gastrique and parsnip crisps.',
     price: 38,
     category: 'Main',
-    image: '/src/assets/images/duck_breast_dish_1783066263339.jpg',
+    image: '/images/duck_breast_dish_1783066263339.jpg',
   },
   {
     id: '9',
@@ -71,7 +71,7 @@ export const MENU_ITEMS: MenuItem[] = [
     description: 'Rack of lamb with fondant potatoes and mint-infused jus.',
     price: 42,
     category: 'Main',
-    image: '/src/assets/images/rack_of_lamb_dish_1783066275867.jpg',
+    image: '/images/rack_of_lamb_dish_1783066275867.jpg',
   },
   {
     id: '10',
@@ -79,7 +79,7 @@ export const MENU_ITEMS: MenuItem[] = [
     description: 'Classic caramelized apple tart with Madagascar vanilla cream.',
     price: 15,
     category: 'Dessert',
-    image: '/src/assets/images/tarte_tatin_dessert_1783066287642.jpg',
+    image: '/images/tarte_tatin_dessert_1783066287642.jpg',
   },
   {
     id: '11',
@@ -87,6 +87,6 @@ export const MENU_ITEMS: MenuItem[] = [
     description: 'Freshly pulled espresso, premium vodka, and coffee liqueur.',
     price: 17,
     category: 'Drink',
-    image: '/src/assets/images/espresso_martini_drink_1783066299765.jpg',
+    image: '/images/espresso_martini_drink_1783066299765.jpg',
   }
 ];

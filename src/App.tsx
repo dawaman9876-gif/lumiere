@@ -80,7 +80,7 @@ export default function App() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div className="relative aspect-[4/5] overflow-hidden rounded-sm">
               <img 
-                src="/src/assets/images/restaurant_hero_1783066000982.jpg" 
+                src="/images/restaurant_hero_1783066000982.jpg" 
                 alt="Restaurant Interior" 
                 className="w-full h-full object-cover"
               />

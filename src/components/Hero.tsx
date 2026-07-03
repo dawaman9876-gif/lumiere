@@ -10,7 +10,7 @@ export default function Hero({ onScrollTo }: HeroProps) {
       <div 
         className="absolute inset-0 z-0 scale-110"
         style={{
-          backgroundImage: 'url("/src/assets/images/restaurant_hero_1783066000982.jpg")',
+          backgroundImage: 'url("/images/restaurant_hero_1783066000982.jpg")',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           filter: 'brightness(0.4)'
