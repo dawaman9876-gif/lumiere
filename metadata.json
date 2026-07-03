@@ -1,0 +1,6 @@
+{
+  "name": "Lumière Bistro",
+  "description": "A refined, modern dining experience with an interactive menu and table reservation system.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
