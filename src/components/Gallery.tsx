@@ -1,11 +1,16 @@
 import { motion } from 'motion/react';
+import hero from '../assets/images/hero.jpg';
+import gallery_1 from '../assets/images/gallery_1.jpg';
+import cocktail from '../assets/images/cocktail.jpg';
+import gallery_2 from '../assets/images/gallery_2.jpg';
+import gallery_3 from '../assets/images/gallery_3.jpg';
 
 const GALLERY_IMAGES = [
-  { url: '/images/restaurant_hero_1783066000982.jpg', span: 'md:col-span-2 md:row-span-2', title: 'The Main Dining Room' },
-  { url: '/images/restaurant_gallery_1_1783066480814.jpg', span: 'md:col-span-1 md:row-span-1', title: 'Culinary Precision' },
-  { url: '/images/restaurant_cocktail_1783066040048.jpg', span: 'md:col-span-1 md:row-span-1', title: 'Mixology Art' },
-  { url: '/images/restaurant_gallery_2_1783066493371.jpg', span: 'md:col-span-1 md:row-span-2', title: 'The Private Cellar' },
-  { url: '/images/restaurant_gallery_3_1783066506146.jpg', span: 'md:col-span-1 md:row-span-1', title: 'Luminous Evenings' },
+  { url: hero, span: 'md:col-span-2 md:row-span-2', title: 'The Main Dining Room' },
+  { url: gallery_1, span: 'md:col-span-1 md:row-span-1', title: 'Culinary Precision' },
+  { url: cocktail, span: 'md:col-span-1 md:row-span-1', title: 'Mixology Art' },
+  { url: gallery_2, span: 'md:col-span-1 md:row-span-2', title: 'The Private Cellar' },
+  { url: gallery_3, span: 'md:col-span-1 md:row-span-1', title: 'Luminous Evenings' },
 ];
 
 export default function Gallery() {

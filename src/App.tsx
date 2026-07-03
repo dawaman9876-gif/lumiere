@@ -9,6 +9,7 @@ import Gallery from './components/Gallery';
 import SpecialHighlight from './components/SpecialHighlight';
 import Testimonials from './components/Testimonials';
 import { MenuItem, CartItem } from './types';
+import heroImage from './assets/images/hero.jpg';
 
 export default function App() {
   const [cartItems, setCartItems] = useState<CartItem[]>([]);
@@ -80,7 +81,7 @@ export default function App() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div className="relative aspect-[4/5] overflow-hidden rounded-sm">
               <img 
-                src="/images/restaurant_hero_1783066000982.jpg" 
+                src={heroImage} 
                 alt="Restaurant Interior" 
                 className="w-full h-full object-cover"
               />

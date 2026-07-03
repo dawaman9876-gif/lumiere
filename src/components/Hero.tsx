@@ -1,4 +1,5 @@
 import { motion } from 'motion/react';
+import heroImage from '../assets/images/hero.jpg';
 
 interface HeroProps {
   onScrollTo: (id: string) => void;
@@ -10,7 +11,7 @@ export default function Hero({ onScrollTo }: HeroProps) {
       <div 
         className="absolute inset-0 z-0 scale-110"
         style={{
-          backgroundImage: 'url("/images/restaurant_hero_1783066000982.jpg")',
+          backgroundImage: `url(${heroImage})`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           filter: 'brightness(0.4)'

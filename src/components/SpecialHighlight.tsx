@@ -1,5 +1,6 @@
 import { motion } from 'motion/react';
 import { Star } from 'lucide-react';
+import risottoImage from '../assets/images/risotto.jpg';
 
 export default function SpecialHighlight() {
   return (
@@ -47,7 +48,7 @@ export default function SpecialHighlight() {
           >
             <div className="aspect-square rounded-sm overflow-hidden border border-white/10 shadow-2xl">
               <img 
-                src="/images/truffle_risotto_dish_1783066341806.jpg" 
+                src={risottoImage} 
                 alt="Truffle Special" 
                 className="w-full h-full object-cover"
               />
